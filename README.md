@@ -12,6 +12,8 @@ Reused code and datasets from:
 
 <a href="https://www.tensorflow.org/datasets/catalog/tf_flowers">The TensorFlow Flowers</a> <a href="http://download.tensorflow.org/example_images/flower_photos.tgz">dataset</a>
 
+## 1. Preamble
+
 ```matlab
 url = 'http://download.tensorflow.org/example_images/flower_photos.tgz';
 downloadFolder = tempdir;
@@ -25,6 +27,11 @@ if ~exist(imageFolder,'dir')
 end
 ```
 
+## 2. Generator
+
+![Fig. 1. Generator.](https://www.mathworks.com/help/examples/nnet/win64/TrainGenerativeAdversarialNetworkGANExample_02.png?raw=true)
+
+## 3. Discriminator
 
 
 
