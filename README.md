@@ -59,7 +59,7 @@ validationFrequency = 100;
 
 (Use <a href="https://youtu.be/3Ytm2MOBvtw">this link</a> to visualize the whole training experiment).
 
-## 6. Result
+### Generated Dataset
 
 ![Fig. 4. Generated Dataset.](https://github.com/jgalfaro/mirrored-GANflowers/blob/master/figures/generatedDataset.png?raw=true)
 
