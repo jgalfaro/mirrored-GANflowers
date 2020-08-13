@@ -61,7 +61,7 @@ validationFrequency = 100;
 
 ## 6. Result
 
-![Fig. 4. Generated Dataset.](https://www.mathworks.com/help/examples/nnet/win64/TrainGenerativeAdversarialNetworkGANExample_03.png?raw=true)
+![Fig. 4. Generated Dataset.](https://github.com/jgalfaro/mirrored-GANflowers/blob/master/figures/generatedDataset.png?raw=true)
 
 ## References
 
