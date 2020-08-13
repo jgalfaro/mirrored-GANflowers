@@ -1,4 +1,4 @@
-# Generative Adversarial Network to Generate Fake Numeric Datasets
+# Generative Adversarial Network to build Fake Numeric Datasets using MATLAB
 
 ## Resources
 
