@@ -33,5 +33,40 @@ end
 
 ## 3. Discriminator
 
+![Fig. 2. Generator.](https://www.mathworks.com/help/examples/nnet/win64/TrainGenerativeAdversarialNetworkGANExample_03.png?raw=true)
 
+## 4. Training Options
 
+```matlab
+numEpochs = 500;
+miniBatchSize = 128;
+augimds.MiniBatchSize = miniBatchSize;
+
+learnRate = 0.0002;
+gradientDecayFactor = 0.5;
+squaredGradientDecayFactor = 0.999;
+
+executionEnvironment = "auto";
+
+flipFactor = 0.3;
+
+validationFrequency = 100;
+```
+
+## 5. Training Experiment
+
+![Fig. 3. Training experiment.](https://github.com/jgalfaro/mirrored-GANflowers/blob/master/figures/training.gif?raw=true)
+
+(Use <a href="https://youtu.be/3Ytm2MOBvtw">this link</a> to visualize the whole training experiment).
+
+## 6. Result
+
+![Fig. 4. Generated Dataset.](https://www.mathworks.com/help/examples/nnet/win64/TrainGenerativeAdversarialNetworkGANExample_03.png?raw=true)
+
+## References
+
+[1] The Mathworks MATLAB team. http://www.mathworks.com/help/deeplearning/ug/train-generative-adversarial-network.html
+
+[2] The TensorFlow Team. Flowers http://download.tensorflow.org/example_images/flower_photos.tgz
+
+[3] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
